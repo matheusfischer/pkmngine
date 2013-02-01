@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------
+-- PKMNgine was writted by Matheus Fischer on educational purposes only. This
+-- is an experimental test on HTML5 functionalities. This is a project which I
+-- am a sole contributor.
+--
+-- I have discontinued this project and have only uploaded it as a proof of
+-- concept. If you wish to take these files, they're yours. I hope they will 
+-- help you in any way possible.
+--
+-- If I decide to continue this project, I will update this repository with
+-- new files, although it's very unlikely.
+------------------------------------------------------------------------------

@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<style>
+			canvas {
+				border: 1px dotted black;
+				background:#000;
+				cursor: none;
+			}
+			img {
+				margin:0px;
+				padding:0px;
+			}
+			body {
+				margin:8px;
+			}
+		</style>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>Pokémon</title>
+	</head>
+	<body>
+		<div id="ResourceImages">
+			<img id="GameMapTerrain" src="Resources/Terrain.png" gameresource />
+			<img id="GameMapObjects" src="Resources/Objects.png" gameresource />
+			<img id="GameMapOverlay" src="Resources/Overlay.png" gameresource />
+			<img id="HUDFrames" src="Resources/Frames.png" gameresource />
+			<img id="HUDCrosshair" src="Resources/Crosshair.png" gameresource />
+		</div>
+		<canvas id="Game" width="640" height="400"></canvas>
+	</body>
+
+	<script type="text/javascript" src="Scripts/external/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="Scripts/external/Class.js"></script>
+	<script type="text/javascript" src="Scripts/Tile.js"></script>
+	<script type="text/javascript" src="Scripts/AnimatedTile.js"></script>
+	<script type="text/javascript" src="Scripts/TileAnimationManager.js"></script>
+	<script type="text/javascript" src="Scripts/Vector2D.js"></script>
+	<script type="text/javascript" src="Scripts/Map.js"></script>
+	<script type="text/javascript" src="Scripts/MapManager.js"></script>
+	<script type="text/javascript" src="Scripts/Mouse.js"></script>
+	<script type="text/javascript" src="Scripts/Keyboard.js"></script>
+	<script type="text/javascript" src="Scripts/GameObject.js"></script>
+	<script type="text/javascript" src="Scripts/HUD.js"></script>
+	<script type="text/javascript" src="Scripts/Renderer.js"></script>
+	<script type="text/javascript" src="Scripts/InputManager.js"></script>
+	<script type="text/javascript" src="Scripts/APIProcessor.js"></script>
+	<script type="text/javascript" src="Scripts/ScreenManager.js"></script>
+	<script type="text/javascript" src="Scripts/Screen.js"></script>
+	
+	<script type="text/javascript" src="Scripts/Screens/LoadScreen.js"></script>
+	<script type="text/javascript" src="Scripts/Screens/GameScreen.js"></script>
+	
+	<script type="text/javascript" src="Scripts/HUDComponents/Component.js"></script>
+	<script type="text/javascript" src="Scripts/HUDComponents/Window.js"></script>
+	<script type="text/javascript" src="Scripts/HUDComponents/Console.js"></script>
+	<script type="text/javascript" src="Scripts/HUDComponents/HUDCrosshair.js"></script>
+
+	<script type="text/javascript" src="Scripts/Globals.js"></script>
+
+	<script type="text/javascript" src="Scripts/Engine.js"></script>
+
+	<script type="text/javascript">
+
+		(new Engine("Game"));
+
+	</script>
+</html>

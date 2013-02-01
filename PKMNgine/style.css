@@ -1,0 +1,27 @@
+@font-face
+{
+	font-family: DefaultFont;
+	src: url('Resources/Fonts/pkmnrs.ttf');
+}
+
+html {
+	padding:none;
+	margin:none;
+}
+
+body
+{
+	font-family: DefaultFont;
+	font-size: 11px;
+	padding:none;
+	margin:none;
+}
+
+canvas {
+	padding:none;
+	margin:none;
+}
+
+#ResourceImages {
+	display: none;
+}
